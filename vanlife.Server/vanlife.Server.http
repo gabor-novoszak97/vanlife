@@ -1,0 +1,6 @@
+@vanlife.Server_HostAddress = http://localhost:5174
+
+GET {{vanlife.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

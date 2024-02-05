@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Vanlife Server",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/vanlife.Server/bin/Debug/net8.0/vanlife.Server.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/vanlife.Server",
+        "stopAtEntry": false,
+        // "serverReadyAction": {
+        //     "action": "openExternally",
+        //     "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        // },
+        "env": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "ASPNETCORE_URLS": "http://localhost:5000;https://localhost:5001"
+
+        },
+    },
+    
+    {
+      "command": "npm --prefix vanlife.client run dev",
+      "name": "Vanlife Client",
+      "request": "launch",
+      "type": "node-terminal",
+      "env": {
+      }
+    },
+    {
+      "type": "firefox",
+      "request": "launch",
+      "name": "localhost (Firefox)",
+      "url": "https://localhost:5173",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "localhost (Chrome)",
+      "url": "https://localhost:5173",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+        "name": ".NET Core Attach",
+        "type": "coreclr",
+        "request": "attach"
+    }
+  ]
+}

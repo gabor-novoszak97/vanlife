@@ -1,0 +1,30 @@
+.van-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 34px;
+  margin-top: 1.245rem;
+}
+
+.btn-simple:hover, .btn-simple-selected {
+  background-color: #e17654 !important;
+  color: #ffead0  !important;
+}
+
+.btn-rugged:hover, .btn-rugged-selected {
+  background-color: #115e59 !important;
+  color: #ffead0 !important;
+}
+.btn-luxury:hover, .btn-luxury-selected {
+  background-color: #161616 !important;
+  color: #ffead0 !important;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-clear:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.header > a{
+    color: black;
+}
+
+
+.header > nav > ul {
+    align-items: center;
+    height: 100%;
+}
+
+.page--nav--active{
+    font-weight: 800 !important;
+    text-decoration: underline;
+}

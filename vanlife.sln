@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vanlife.Server", "vanlife.Server\vanlife.Server.csproj", "{423B1C04-CC73-4577-B020-B4EE3C213F52}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vanlife.client", "vanlife.client\vanlife.client.esproj", "{DCAA7FDF-D72B-48A8-9378-327C1F284765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{423B1C04-CC73-4577-B020-B4EE3C213F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423B1C04-CC73-4577-B020-B4EE3C213F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423B1C04-CC73-4577-B020-B4EE3C213F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{423B1C04-CC73-4577-B020-B4EE3C213F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAA7FDF-D72B-48A8-9378-327C1F284765}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {623B16A2-4D8C-4B67-B8D1-3E7D7BDF9FFC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+.all--host--nav a:hover, .all--host--nav--active{
+    text-decoration: underline;
+}
+
+.all--host--nav--active{
+    font-weight: 600;
+}
+
+

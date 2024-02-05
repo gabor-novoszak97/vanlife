@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WSrk1b7WktoKArJxLuJ7lHqtuWEK85mG376z6Dn+3caFDgKlWeP8k0n9SMSPLoFkhlDzUO2DdAkl0TEVlrJ89A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Turashor\\Documents\\Prog\\Scrimba - React Router\\vanlife\\vanlife.Server\\vanlife.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Turashor\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.1\\microsoft.aspnetcore.spaproxy.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

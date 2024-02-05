@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "mq77M+xYv+2GtLMmYsfZ/Wp5+51kivLHT9YVHcsGFCY=",
+  "Source": "vanlife.Server",
+  "BasePath": "_content/vanlife.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Turashor\\Documents\\Prog\\Scrimba - React Router\\vanlife\\vanlife.client\\vanlife.client.esproj",
+      "Version": 2,
+      "Source": "vanlife.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
