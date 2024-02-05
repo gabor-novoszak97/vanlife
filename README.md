@@ -1,5 +1,5 @@
 # #Vanlife with ASP.NET Core backend
-This is my personal Vanlife implementation from Scrimba's "React Router" course with an ASP.NET Core backend and with an SQLite databse in the plans.
+This is my personal Vanlife implementation from Scrimba's "React Router" course with an ASP.NET Core backend and with an SQLite database in the plans.
 The frontend was fully coded by me, except for the test data.
 ## Current state of this project
 ### Frontend
